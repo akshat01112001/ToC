@@ -2,6 +2,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include <math.h>
+#include <regex.h>
 
 #define MAX_TOKENS 1000000
 #define MAX_LINE_LENGTH 1000000
