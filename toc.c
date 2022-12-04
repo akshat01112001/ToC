@@ -60,10 +60,13 @@ int main(int argc, char **argv){
 
     ll i;
     char *set[MAX_LIMIT], *ch="abcdefghijklmnopqrstuvxyz";
+
     for (i = 0; i < MAX_LIMIT; i++){
         set[i] = (char *)malloc(1000*sizeof(char));
     }
+
     f(ch, 0, 26, "", set);
+
     // for (i = 0; i < 26; i++){
     //     printf("%s", *set[i]);
     // }
